@@ -5,19 +5,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>I ♡ Theo</title>
+        {/* link global styles */}
+        <link rel="stylesheet" href="/global.css" />
       </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <img
-          src="/logo.svg"
-          class="w-32 h-32"
-          alt="the fresh logo: a sliced lemon dripping with juice"
-        />
-        <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-          file, and refresh.
-        </p>
-        <Counter start={3} />
+      <div class="p-4 app-shell bg-black text-white ">
+        <h1 class="message text-7xl font-sans">I ❤️ Theo!</h1>
       </div>
     </>
   );
